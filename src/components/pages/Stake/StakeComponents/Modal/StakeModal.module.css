@@ -1,0 +1,157 @@
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  z-index: 20;
+}
+
+.popup {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 60px 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+}
+.dataWrapper {
+  padding: 10px 0;
+  width: 100%;
+}
+.title {
+  margin: 0;
+}
+.main {
+  width: 100%;
+}
+
+.buttonContainer {
+  width: 100%;
+  padding-top: 45px;
+  display: flex;
+  justify-content: center;
+}
+.estimate {
+  margin-bottom: 100px;
+}
+.fieldset {
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 2px 0;
+  padding-right: 8px;
+  margin-bottom: 50px;
+}
+.legend {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #304050;
+  padding: 0px 4px;
+  position: absolute;
+  top: -15px;
+  left: 8px;
+  background: #fff;
+}
+.input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 15px 12px;
+  display: block;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+}
+.buttonImage {
+  display: flex;
+  align-items: center;
+}
+.maxButton {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  background: #1682fe;
+  padding: 3px 6px;
+  border-radius: 18px;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+.maxImage {
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.myButtons {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 15px;
+}
+.circleAndLine {
+  margin-top: 15px;
+  width: 60%;
+  margin: 15px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #e7e7e7;
+  display: block;
+}
+.line {
+  width: 60%;
+  background: #e7e7e7;
+  height: 3px;
+}
+@media only screen and (max-width: 850px) {
+  .popup {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .popup {
+    padding: 30px 25px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .popup {
+    padding: 20px 15px;
+    padding-bottom: 18px;
+    border-radius: 10px;
+  }
+  .legend {
+    font-size: 10px;
+    top: -10px;
+  }
+}

@@ -1,0 +1,27 @@
+.title {
+  width: 100%;
+  font-style: italic;
+  border-top: 4px solid #eff0f0;
+  padding-top: 50px;
+  text-align: center;
+}
+.text {
+  text-align: center;
+  margin-top: 7px;
+  line-height: 110%;
+}
+.letsGo {
+  margin-top: 10px;
+}
+.buttonContainer {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+@media only screen and (max-width: 520px) {
+  .br {
+    display: none;
+  }
+}

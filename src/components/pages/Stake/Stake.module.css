@@ -1,0 +1,59 @@
+.stake {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+  width: 800px;
+  margin: 0 auto;
+}
+.componentswrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+.usdtContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 35px;
+  padding: 18px;
+  border: 1px solid #aeb3b7;
+  border-radius: 5px;
+}
+.usdt {
+  display: flex;
+  align-items: center;
+}
+.currency {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  color: #304050;
+  margin-left: 5px;
+}
+.image {
+  width: 40px;
+}
+.appromaxContainer {
+  display: flex;
+  flex-direction: column;
+}
+.appromax {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #808080;
+}
+@media only screen and (max-width: 991px) {
+  .stake {
+    width: 90%;
+  }
+  .componentswrapper {
+    flex-direction: column;
+  }
+}

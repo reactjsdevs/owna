@@ -1,0 +1,172 @@
+.header {
+  width: 100%;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 80%;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #000000;
+  display: flex;
+  align-items: flex-end;
+  min-width: 100px;
+  text-decoration: none;
+
+  padding: 20px 0;
+}
+.dot {
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #ca3c76;
+}
+.address {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+.navWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.navItemsAndIcon {
+  display: flex;
+  align-items: center;
+  padding: 0 15px;
+}
+.navItems {
+  position: relative;
+  padding: 20px 0;
+}
+
+.navLink {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0.01em;
+  color: #000000;
+  display: flex;
+  padding-right: 5px;
+  cursor: pointer;
+}
+.arrow {
+  font-family: "Rubik";
+  font-size: 18px;
+
+  color: #000000;
+  cursor: pointer;
+  display: block;
+}
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 200 !important;
+
+  top: 50px;
+
+  width: 135px;
+
+  left: 60%;
+  transform: translateX(-50%);
+}
+.dropdownItem {
+  padding: 5px 8px;
+  margin: 8px 0;
+  line-height: 120%;
+}
+.icon {
+  font-size: 25px;
+  margin-left: 20px;
+  display: none;
+  cursor: pointer;
+}
+.addressContainer {
+  display: flex;
+  align-items: center;
+}
+.backOffice {
+  margin-right: 25px;
+  position: relative;
+}
+
+.backOfficeDropdown {
+  top: 50px;
+}
+@media screen and (max-width: 1399px) {
+  .header {
+    width: 100;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .navWrapper {
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ffff;
+    display: none;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 5;
+  }
+  .sidebar {
+    display: flex;
+    padding-top: 15px;
+    background: #ffff;
+  }
+  .icon {
+    display: block;
+  }
+  .navLink {
+    margin: 18px 0;
+  }
+  .dropdown {
+    top: 45px;
+  }
+  .navItems {
+    padding: 0;
+  }
+  .dropdownItem {
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 6px 0;
+  }
+  .backOffice {
+    display: none;
+  }
+  .backOfficeMobile {
+    display: block;
+    margin: 0;
+    margin-top: 15px;
+  }
+  .backOfficeDropdown {
+    top: 52px;
+  }
+}

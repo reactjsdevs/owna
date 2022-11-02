@@ -1,0 +1,21 @@
+.willingTodo {
+  padding: 100px 0;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.title {
+  width: 100%;
+  font-style: italic;
+  border-top: 4px solid #eff0f0;
+  padding-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+.buttonContainer {
+  margin-top: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}

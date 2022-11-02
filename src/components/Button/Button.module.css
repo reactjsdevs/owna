@@ -1,0 +1,28 @@
+.button {
+  outline: 0;
+  border: 0;
+  background: linear-gradient(90deg, #9f67bb 0%, #ca3d76 100%);
+  border-radius: 4px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  padding: 10px 45px;
+  cursor: pointer;
+  min-width: 180px;
+  text-decoration: none;
+}
+@media only screen and (max-width: 520px) {
+  .button {
+    min-width: 100px;
+    padding: 10px 30px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .button {
+    min-width: auto;
+    padding: 10px 20px;
+  }
+}

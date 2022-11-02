@@ -1,0 +1,86 @@
+.wrapper {
+  width: 100%;
+
+  padding: 50px 0;
+  border-bottom: 1px solid #eff0f0;
+}
+.dataWrapper {
+  width: 100%;
+  display: grid;
+  width: 100%;
+  justify-content: space-evenly;
+
+  grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0 25px;
+  margin: 25px 0;
+}
+.textContainer:not(:last-child) {
+  border-right: 1px solid #eff0f0;
+}
+.titleAndIcon {
+  display: flex;
+  align-items: start;
+  gap: 8px;
+}
+.icon {
+  display: block;
+  width: 70px;
+  padding-right: 5px;
+  border-right: 1px solid #eff0f0;
+}
+.title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.01em;
+  color: #0d1a26;
+}
+.text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  color: #808080;
+  display: block;
+  text-decoration: none;
+}
+
+.buttonContainer {
+  margin-top: 25px;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+@media only screen and (max-width: 500px) {
+  .textContainer {
+    border: none;
+  }
+  .textContainer:not(:last-child) {
+    border-right: none;
+  }
+  .textContainerBorder:not(:last-child) {
+    border-right: 1px solid #eff0f0 !important;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .dataWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .textContainerBorder:not(:last-child) {
+    border-right: none !important;
+  }
+}

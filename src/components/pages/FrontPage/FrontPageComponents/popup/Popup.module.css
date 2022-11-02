@@ -1,0 +1,18 @@
+.backdrop {
+  perspective: 800px;
+  transition: opacity 250ms ease-in-out;
+  opacity: 0;
+}
+
+.backdrop[data-enter] {
+  opacity: 1;
+}
+
+.dialog {
+  transition: opacity 250ms ease-in-out, transform 250ms ease-in-out;
+  opacity: 0;
+}
+
+.dialog[data-enter] {
+  opacity: 1;
+}

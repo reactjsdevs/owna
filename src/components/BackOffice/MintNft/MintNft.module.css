@@ -1,0 +1,174 @@
+.mintNft {
+  position: relative;
+  padding-bottom: 100px;
+}
+
+.infoWrapper {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid #eff0f0;
+  padding: 40px 0;
+}
+.iconAndContainer {
+  display: flex;
+  align-items: flex-start;
+}
+.titleAndText {
+  padding-left: 20px;
+}
+.title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 171%;
+  color: #304050;
+}
+.text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.01em;
+
+  color: #5c6670;
+}
+.plusWrapper {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #aeb3b7;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.plus {
+  color: #c44481;
+  font-size: 24px;
+}
+.unlock {
+  border: none;
+}
+.buttonContainer {
+  margin-top: 100px;
+}
+.labelContainer {
+  display: flex;
+
+  flex-direction: column;
+  gap: 0 15px;
+  padding: 10px 0;
+}
+.label {
+  display: block;
+  padding-bottom: 5px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.text {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #304050;
+}
+.button {
+  display: block;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  max-width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 7px 25px;
+
+  background: linear-gradient(90deg, #9f67bb 0%, #ca3d76 100%);
+  border-radius: 4px;
+}
+.input {
+  display: block;
+  width: 100%;
+  visibility: hidden;
+  position: absolute;
+}
+.headingAndPhoto {
+  padding: 10px 0;
+}
+.photoContainer {
+  width: 350px;
+  height: 160px;
+  border: 1px dashed #aeb3b7;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+/* .uploadedImage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.imageLogo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.inputFile {
+  width: 100%;
+  height: 100%;
+  display: block;
+  visibility: hidden;
+}
+@media only screen and (max-width: 400px) {
+  .photoContainer {
+    width: 100%;
+  }
+} */
+.button {
+  display: block;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  max-width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 7px 25px;
+
+  background: linear-gradient(90deg, #9f67bb 0%, #ca3d76 100%);
+  border-radius: 4px;
+}
+.input {
+  display: block;
+  width: 100%;
+  visibility: hidden;
+  position: absolute;
+}

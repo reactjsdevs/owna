@@ -1,0 +1,39 @@
+.letsConnectWrapper {
+  width: 650px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.letsConnect {
+  display: grid;
+  grid-template-columns: 400px 250px;
+  gap: 15px;
+  min-height: 308px;
+  padding: 15px 0;
+}
+.calender {
+  border: 1px dashed #aeb3b7;
+  border-radius: 5px;
+}
+.map {
+  border: 1px solid #aeb3b7;
+  border-radius: 5px;
+}
+.buttonContainer {
+  margin-top: 15px;
+}
+@media only screen and (max-width: 767px) {
+  .letsConnectWrapper {
+    width: 90%;
+  }
+  .letsConnect {
+    grid-template-columns: 400px;
+    min-height: 600px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .letsConnect {
+    grid-template-columns: 1fr;
+    min-height: 500px;
+  }
+}

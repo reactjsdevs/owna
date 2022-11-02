@@ -1,0 +1,8 @@
+.list {
+  @apply text-gray-500 space-y-2 ml-4;
+}
+
+.list > li::before {
+  content: "\2022";
+  @apply text-mainColor inline-flex items-center font-bold text-2xl w-4 -ml-4 relative top-[2px];
+}

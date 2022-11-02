@@ -1,0 +1,119 @@
+.wrapper {
+  width: 400px;
+}
+.headingAndButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.usdt {
+  display: flex;
+  align-items: center;
+}
+.currency {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 150%;
+  color: #304050;
+  margin-left: 5px;
+}
+
+.appromax {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #808080;
+}
+.percentage {
+  font-size: 15px;
+  color: #000;
+}
+.stakeComponents {
+  display: flex;
+  flex-direction: column;
+  flex-direction: center;
+  align-items: center;
+
+  padding: 18px;
+  border: 1px solid #aeb3b7;
+  border-radius: 5px;
+  margin: 15px 0;
+  margin-top: 50px;
+}
+.image {
+  width: 40px;
+}
+.title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #304050;
+}
+.stakeCurrency {
+  font-weight: 700;
+}
+.countDown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 10px;
+  margin-bottom: 0;
+  width: 100%;
+}
+.countDownText {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #808080;
+}
+.time {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  text-align: right;
+
+  color: #304050;
+}
+.amountContainer {
+  padding: 35px 0;
+}
+.amount {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 150%;
+  text-align: center;
+  color: #304050;
+}
+.amountText {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: #304050;
+}
+
+@media only screen and (max-width: 520px) {
+  .wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

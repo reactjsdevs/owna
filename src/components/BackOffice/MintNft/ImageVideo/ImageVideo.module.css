@@ -1,0 +1,56 @@
+.heading {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #304050;
+  padding-bottom: 8px;
+}
+.headingAndPhoto {
+  padding: 10px 0;
+}
+/* .photoContainer {
+  width: 350px;
+  height: 160px;
+  border: 1px dashed #aeb3b7;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+  .photoContainer {
+    width: 100%;
+  }
+} */
+.button {
+  display: block;
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #fff;
+  max-width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 7px 25px;
+
+  background: linear-gradient(90deg, #9f67bb 0%, #ca3d76 100%);
+  border-radius: 4px;
+}
+.input {
+  display: block;
+  width: 100%;
+  visibility: hidden;
+  position: absolute;
+}
